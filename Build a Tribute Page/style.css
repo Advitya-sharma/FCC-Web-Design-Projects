@@ -1,54 +1,89 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: aquamarine;
-    text-align: center;
-  }
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: white;
+  text-align: center;
+}
 strong{
-    font-weight: bold;
-   }
+  font-weight: bold;
+}
+h3{
+  font-size: 30px;
+  text-decoration: underline;
+  font-family: 'Roboto', sans-serif;
+}
 #main{
-    margin: 0px 10px 0px 10px ;
-    background-color: brown;
-    box-shadow: 0 4px 8px 0 black;
-    border-radius: 7px;
+  margin: 0px 50px 0px 50px ;
+  background-color: #77AA76;
+  box-shadow: 0 4px 8px 0 black;
+  border-radius: 7px;
 }
 #title{
-    text-align: center;
+  text-align: center;
+  font-size: 50px;
 }
 
 #image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-height: 50%;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
 }
 
 #img-caption{
-    text-align: center;
-
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin: 20px 0;
 }
 
 #tribute-info{
-    
-    background-color: aqua;
+  background-color: #E6775E;
 }
 
 
 ul {
-    max-width: 700px;
-    margin: 0 auto 50px auto;
-    text-align: left;
-    line-height: 1.6;
-  }
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
 li {
-    margin: 18px 0;
-    font-size: 30px;
-  }
+  margin: 18px 0;
+  font-size: 30px;
+}
+
+blockquote{
+  font-size: 30px;
+}
+#tribute-link{
+  font-size: 20px;
+}
 a{
-    color: cornflowerblue;
+  color: rgb(250, 252, 251);
+}
+
+a:visited {
+  color: crimson;
+}
+
+#tribute-missile-one{
+  animation: missile 5s infinite;
+  float: left;
+}
+#tribute-missile-two{
+  animation: missile 5s infinite;
+  float: right;
+}
+
+@keyframes missile{
+  0%{
+    margin-top: -500px;
   }
-  
-  a:visited {
-    color: crimson;
+  100%{
+    margin-top:-1200px;
   }
+}
