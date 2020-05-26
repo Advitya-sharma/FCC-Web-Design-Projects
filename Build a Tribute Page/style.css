@@ -1,0 +1,54 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: aquamarine;
+    text-align: center;
+  }
+strong{
+    font-weight: bold;
+   }
+#main{
+    margin: 0px 10px 0px 10px ;
+    background-color: brown;
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 7px;
+}
+#title{
+    text-align: center;
+}
+
+#image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+
+#img-caption{
+    text-align: center;
+
+}
+
+#tribute-info{
+    
+    background-color: aqua;
+}
+
+
+ul {
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+li {
+    margin: 18px 0;
+    font-size: 30px;
+  }
+a{
+    color: cornflowerblue;
+  }
+  
+  a:visited {
+    color: crimson;
+  }
