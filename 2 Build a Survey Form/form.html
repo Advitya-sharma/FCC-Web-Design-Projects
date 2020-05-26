@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+<header>
+    <h1 id="title"> Welcome to the survey form </h1>
+    <p id="description">survey to collect public info</p>
+</header>
+<form id="survey-form" action="#">
+    <label for="name" id="name-label" placeholder="name" required >Name</label>
+    <input type="text" id="name" >
+
+    <label for="email" id="email-label" placeholder="email" required>Email</label>
+    <input type="email" id="email">
+    
+    <label for="number" id="number-label" placeholder="age" >Age</label>
+    <input type="number" id="number" max="90" min="3">
+
+    <p>Which role describes you ?</p>
+    
+    <select name="occupation" id="dropdown">
+        <option disabled selected>Select an option</option>
+        <option value="student">Student</option>
+        <option value="Employed">Employed</option>
+        <option value="Unemployed">Unemployed</option>
+    </select>
+
+    <p>Select your favourite language</p>
+    <label>
+        <input name="radio" value="C++" type="radio">C++
+    </label>
+
+    <label >
+        <input name="radio" value="Python" type="radio">Python
+    </label>
+
+    <label >
+        <input name="radio" value="Javascript" type="radio">Javascript
+    </label>
+
+    <p>What do you like the most ?</p>
+    <label>
+        <input type="checkbox" value="Open Source Community">Open Source Community
+    </label>
+
+    <label>
+        <input type="checkbox" value="Web development">Web development
+    </label>
+  
+    <label>
+        <input type="checkbox" value="Github">Github
+    </label>
+  
+    <label>
+        <input type="checkbox" value="Chocolates">Chocolates
+    </label>
+
+    <p>Any you want to say about yourself</p>
+    <textarea cols="30" rows="10"></textarea>
+
+    <button id="submit" type="submit">Submit</button>
+</form>
+</body>
+</html>
