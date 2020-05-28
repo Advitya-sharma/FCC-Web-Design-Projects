@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header id="main-header">C++ Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Why_to_learn_C++">Why to learn C++</a></li>
+            <li><a class="nav-link" href="#Hello_World">Hello World</a></li>
+            <li><a class="nav-link" href="#Applications_of_C++_Programming">Applications of C++ Programming</a></li>
+            <li><a class="nav-link" href="#C++_Basic_Syntax">C++ Basic Syntax</a></li>
+            <li><a class="nav-link" href="#Comments_in_C++">Comments in C++</a></li>
+            <li><a class="nav-link" href="#C++_Data_Types">C++ Data Types</a></li>
+            <li><a class="nav-link" href="#Operators_in_C++">Operators in C++</a></li>
+            <li><a class="nav-link" href="#C++_Loop_Types">C++ Loop Types</a></li>
+            <li><a class="nav-link" href="#C++_decision_making_statements">C++ decision making statements</a></li>
+            <li><a class="nav-link" href="#Read_More">Read More</a></li>
+        </ul>
+    </nav>
+    
+    <main id="main-doc">
+    
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>C++ is a middle-level programming language developed by Bjarne Stroustrup starting in 1979 at Bell Labs.
+                C++ runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX.
+                This C++ tutorial adopts a simple and practical approach to describe the concepts of C++ for beginners to advanded software engineers.</p>
+        </section>
+    
+        <section class="main-section" id="Why_to_learn_C++">
+            <header>Why to learn C++</header>
+    
+            <p>C++ is a MUST for students and working professionals to become a great Software Engineer. <br /><br />I will list down some of the key advantages of learning C++:</p>
+            <ul>
+                <li>C++ is very close to hardware, so you get a chance to work at a low level which gives you lot of control in terms of memory management, better performance and finally a robust software development.</li>
+    
+                <li>C++ programming gives you a clear understanding about Object Oriented Programming. You will understand low level implementation of polymorphism when you will implement virtual tables and virtual table pointers, or dynamic type identification.</li>
+    
+                <li>C++ is one of the every green programming languages and loved by millions of software developers. If you are a great C++ programmer then you will never sit without work and more importantly you will get highly paid for your work.</li>
+    
+                <li>C++ is the most widely used programming languages in application and system programming. So you can choose your area of interest of software development.</li>
+    
+                <li>C++ really teaches you the difference between compiler, linker and loader, different data types, storage classes, variable types their scopes etc.</li>
+            </ul>
+        </section>
+    
+        <section class="main-section" id="Hello_World">
+            <header>Hello World</header>
+            <p>C++ is a super set of C programming with additional implementation of object-oriented concepts</p>
+            <pre>
+                <code>
+                #include &#60;iostream&#62;
+                using namespace std;
+                // main() is where program execution begins.
+                int main() {
+                    cout << "Hello World"; // prints Hello World
+                    return 0;
+                }
+            </code>
+        </pre>
+        </section>
+    
+        <section class="main-section" id="Applications_of_C++_Programming">
+            <header>Applications of C++ Programming</header>
+            <p>As mentioned before, C++ is one of the most widely used programming languages. It has it's presence in almost every area of software development. I'm going to list few of them here:</p>
+    
+            <ul>
+                <li>Application Software Development - C++ programming has been used in developing almost all the major Operating Systems like Windows, Mac OSX and Linux. Apart from the operating systems, the core part of many browsers like Mozilla Firefox and Chrome have been written using C++.
+                    C++ also has been used in developing the most popular database system called MySQL.</li>
+    
+                <li>Programming Languages Development - C++ has been used extensively in developing new programming languages like C#, Java, JavaScript, Perl, UNIX’s C Shell, PHP and Python, and Verilog etc.</li>
+    
+                <li>Computation Programming - C++ is the best friends of scientists because of fast speed and computational efficiencies.</li>
+    
+                <li>Games Development - C++ is extremely fast which allows programmers to do procedural programming for CPU intensive functions and provides greater control over hardware, because of which it has been widely used in development of gaming engines.</li>
+    
+                <li>Embedded System - C++ is being heavily used in developing Medical and Engineering Applications like softwares for MRI machines, high-end CAD/CAM systems etc.</li>
+            </ul>
+        </section>
+    
+        <section class="main-section" id="C++_Basic_Syntax">
+            <header>C++ Basic Syntax</header>
+            <p>When we consider a C++ program, it can be defined as a collection of objects that communicate via invoking each other's methods.
+                Let us now briefly look into what a class, object, methods, and instant variables mean.</p>
+            <pre><code>
+                    #include &#60;iostream&#62;
+                        using namespace std;
+                        
+                        // main() is where program execution begins.
+                        int main() {
+                           cout << 1+3; // prints 4
+                           return 0;
+                        }
+                </code></pre>
+        </section>
+    
+        <section class="main-section" id="Comments_in_C++">
+            <header>Comments in C++</header>
+            <p>Program comments are explanatory statements that you can include in the C++ code. These comments help anyone reading the source code. All programming languages allow for some form of comments.
+                C++ supports single-line and multi-line comments. All characters available inside any comment are ignored by C++ compiler.</p>
+            <pre><code>
+                    /* This is a multiline comment */
+    
+                    /* C++ comments can also
+                     span multiple lines
+                    */
+                </code></pre>
+    
+            <pre><code>
+                    //This is a single line comment
+                </code></pre>
+    
+        </section>
+    
+        <section class="main-section" id="C++_Data_Types">
+            <header>C++ Data Types</header>
+            <p>While writing program in any language, you need to use various variables to store various information. Variables are nothing but reserved memory locations to store values. This means that when you create a variable you reserve some space in memory.
+                You may like to store information of various data types like character, wide character, integer, floating point, double floating point, boolean etc. Based on the data type of a variable, the operating system allocates memory and decides what can be stored in the reserved memory.</p>
+            <h3>Primitive Built-in Types</h3>
+            <li>Boolean </li>
+            <li>Character </li>
+            <li> Integer </li>
+            <li> Floating point </li>
+            <li> Double floating point </li>
+            <li> Valueless </li>
+            <li> Wide character </li>
+            </ul>
+        </section>
+    
+        <section class="main-section" id="Operators_in_C++">
+            <header>Operators in C++</header>
+            <p>An operator is a symbol that tells the compiler to perform specific mathematical or logical manipulations. C++ is rich in built-in operators and provide the following types of operators −</p>
+            <ul>
+                <li>Arithmetic Operators</li>
+            </ul>
+            <ul>
+                <li>Relational Operators</li>
+            </ul>
+            <ul>
+                <li>Logical Operators</li>
+            </ul>
+            <ul>
+                <li>Bitwise Operators</li>
+            </ul>
+            <ul>
+                <li>Assignment Operators</li>
+            </ul>
+            <ul>
+                <li>Misc Operators</li>
+            </ul>
+    
+            <pre><code>
+                //Arithmetic Operators
+                cout<<2+3;
+    
+                //Relational Operators
+                A == B
+    
+                //Logical Operators
+                A && B
+    
+                //Assignment Operators
+                A = B
+    
+                //Bitwise Operators
+                (A & B)
+    
+                //Misc Operators
+                sizeof(A)
+            </code></pre>
+        </section>
+    
+        <section class="main-section" id="C++_Loop_Types">
+            <header>C++ Loop Types</header>
+            <p>A loop statement allows us to execute a statement or group of statements multiple times and following is the general from of a loop statement in most of the programming languages</p>
+            <pre><code>
+                //for loop 
+                for(int i=0;i<10;i++){
+                    //code 
+                }
+            </code></pre>
+    
+            <pre><code>       
+                //while loop
+                while(x){
+                    //code
+                }
+            </code></pre>
+    
+            <pre><code>
+                //do..while Loop
+                do{
+                    //code
+                }while(x);
+            </code></pre>
+        </section>
+    
+        <section class="main-section" id="C++_decision_making_statements">
+            <header>C++ decision making statements</header>
+            <p>Decision making structures require that the programmer specify one or more conditions to be evaluated or tested by the program,
+                along with a statement or statements to be executed if the condition is determined to be true, and optionally,
+                other statements to be executed if the condition is determined to be false.</p>
+            <pre><code>
+                    //if-else statement
+                    if(x){
+                        //code
+                    }
+                    else{
+                        //code
+                    }
+                </code></pre>
+    
+            <pre><code>
+                    //Switch case
+                    switch(x){
+                        case 1:{
+                            //code
+                        }
+                        case 2:{
+                            //code
+                        }
+                        case 3:{
+                            //code
+                        }
+                    }
+                </code></pre>
+        </section>
+        <section class="main-section" id="Read_More">
+            <header>Read More</header>
+            <p>Read more at <a href="https://www.tutorialspoint.com/cplusplus/">tutorialspoint</a></p>
+        </section>
+    </main>
+    
+</body>
+</html>
